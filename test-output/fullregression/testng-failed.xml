@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [fullregression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.DearDoctorPractice.BookAppointmentTest">
+        <methods>
+          <include name="BookAppointmentbyMobno"/>
+          <include name="BookAppointmentbyName"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+          <include name="BookAppointmentbyemail"/>
+        </methods>
+      </class> <!-- com.DearDoctorPractice.BookAppointmentTest -->
+      <class name="com.DearDoctorPractice.AddDoctor">
+        <methods>
+          <include name="addDoctorname"/>
+          <include name="addDoctoremail"/>
+          <include name="addDoctormobno"/>
+          <include name="configAC"/>
+          <include name="configBC"/>
+          <include name="addDoctoraddress"/>
+        </methods>
+      </class> <!-- com.DearDoctorPractice.AddDoctor -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [fullregression] -->

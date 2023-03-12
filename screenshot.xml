@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+	<test thread-count="1" parallel="tests" name="screenshot1">
+		<classes>
+			<class name="com.TestNG.Base.DeletedDoctorDetails" />
+
+		</classes>
+	</test> <!-- screenshot -->
+	<test thread-count="1" parallel="tests" name="screenshot2">
+		<classes>
+			<class name="com.TestNG.Base.EditDoctorName" />
+
+		</classes>
+	</test> <!-- screenshot -->
+	<test thread-count="1" parallel="tests" name="screenshot3">
+		<classes>
+
+			<class name="com.TestNG.Base.AddedDoctorDetails" />
+		</classes>
+	</test> <!-- screenshot -->
+</suite> <!-- Suite -->

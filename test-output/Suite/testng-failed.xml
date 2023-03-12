@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="reg(failed)">
+    <classes>
+      <class name="com.TestNG.Base.AddedDoctorDetails">
+        <methods>
+          <include name="check_added_doctor_details"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.TestNG.Base.AddedDoctorDetails -->
+    </classes>
+  </test> <!-- reg(failed) -->
+</suite> <!-- Failed suite [Suite] -->

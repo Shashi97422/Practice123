@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suit">
+  <test thread-count="2" parallel="tests" name="Test">
+    <classes>
+      <class name="com.DearDoctorPractice.EditMyprofileTest"/>
+      <class name="com.DearDoctorPractice.BookAppointmentTest"/>
+      <class name="com.DearDoctorPractice.AddDoctor"/>
+      <class name="com.DearDoctorPractice.ViewAppointmentHistoryTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suit -->

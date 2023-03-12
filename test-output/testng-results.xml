@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7903" started-at="2022-08-25T11:45:14 IST" finished-at="2022-08-25T11:45:22 IST">
+    <groups>
+      <group name="smokeTest">
+        <method signature="AddedDoctorDetailstest.check_added_doctor_details()[pri:0, instance:com.TestNG.Base.AddedDoctorDetailstest@612679d6]" name="check_added_doctor_details" class="com.TestNG.Base.AddedDoctorDetailstest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="7903" started-at="2022-08-25T11:45:14 IST" finished-at="2022-08-25T11:45:22 IST">
+      <class name="com.TestNG.Base.AddedDoctorDetailstest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.TestNG.Base.AddedDoctorDetailstest@612679d6]" name="configBS" is-config="true" duration-ms="7" started-at="2022-08-25T11:45:14 IST" finished-at="2022-08-25T11:45:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.TestNG.Base.AddedDoctorDetailstest@612679d6]" name="configBC" is-config="true" duration-ms="2462" started-at="2022-08-25T11:45:14 IST" finished-at="2022-08-25T11:45:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="check_added_doctor_details()[pri:0, instance:com.TestNG.Base.AddedDoctorDetailstest@612679d6]" name="check_added_doctor_details" duration-ms="4606" started-at="2022-08-25T11:45:16 IST" finished-at="2022-08-25T11:45:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_added_doctor_details -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.TestNG.Base.AddedDoctorDetailstest@612679d6]" name="configAC" is-config="true" duration-ms="773" started-at="2022-08-25T11:45:21 IST" finished-at="2022-08-25T11:45:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.TestNG.Base.AddedDoctorDetailstest@612679d6]" name="configAS" is-config="true" duration-ms="1" started-at="2022-08-25T11:45:22 IST" finished-at="2022-08-25T11:45:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.TestNG.Base.AddedDoctorDetailstest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
